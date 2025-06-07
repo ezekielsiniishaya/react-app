@@ -1,17 +1,20 @@
-# Hello World React App
+# Click Counter React App
 
-This is a simple React application that displays "Hello World" in the browser, created as part of a mini project assessment.
+A simple counter application built with React that allows users to increment, decrement, and reset a counter value.
 
 ## Features
 
-- Built with React 18
-- Uses Vite for fast development
-- Follows React best practices
-- Uses semantic HTML
+- Increment counter with "Increase" button
+- Decrement counter with "Decrease" button (won't go below 0)
+- Reset counter to 0 with "Reset" button
+- Visual feedback when reaching limits (0 and 10)
+- Responsive design with clean UI
+- Disabled state for decrease button at minimum value
 
 ## Installation
 
-1. Clone this repository
+1. Clone the repository
 2. Install dependencies:
    ```bash
    npm install
+   ```
